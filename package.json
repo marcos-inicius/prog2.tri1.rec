@@ -1,0 +1,9 @@
+{
+  "name": "evento-bun",
+  "version": "1.0.0",
+  "description": "Sistema de confirmação de presença com Bun",
+  "main": "server.js",
+  "scripts": {
+    "start": "bun server.js"
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confirmação de Presença</title>
+  <link rel="stylesheet" href="./main.css" />
+  <script defer src="./main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Confirmação de Presença</h1>
+
+    <!-- Estatísticas -->
+    <div class="stats">
+      <div class="stat-box">
+        <strong id="stat-total">-</strong>
+        <span>Total</span>
+      </div>
+      <div class="stat-box">
+        <strong id="stat-confirmados">-</strong>
+        <span>Confirmados</span>
+      </div>
+      <div class="stat-box">
+        <strong id="stat-ausentes">-</strong>
+        <span>Pendentes</span>
+      </div>
+      <div class="stat-box">
+        <strong id="stat-acompanhantes">-</strong>
+        <span>Acompanhantes</span>
+      </div>
+    </div>
+
+    <!-- Busca -->
+    <div class="card">
+      <h2>1. Pesquise seu nome</h2>
+      <input
+        type="text"
+        id="campo-busca"
+        placeholder="Digite seu nome..."
+      />
+      <div id="lista-resultados"></div>
+    </div>
+
+    <!-- Confirmação -->
+    <div class="card" id="secao-confirmacao">
+      <h2>2. Confirme sua presença</h2>
+
+      <div class="nome-selecionado" id="nome-selecionado"></div>
+
+      <div class="campo">
+        <label>Você vai participar?</label>
+        <div class="opcoes-presenca">
+          <button id="btn-sim" onclick="definirPresenca(true)">✔ Sim, vou!</button>
+          <button id="btn-nao" onclick="definirPresenca(false)">✘ Não vou</button>
+        </div>
+      </div>
+
+      <div class="campo">
+        <label>Quantidade de acompanhantes:</label>
+        <div class="contador">
+          <button id="btn-menos" onclick="alterarAcompanhantes(-1)" disabled>−</button>
+          <span id="qtd-acompanhantes">0</span>
+          <button onclick="alterarAcompanhantes(1)">+</button>
+        </div>
+      </div>
+
+      <button class="btn-salvar" onclick="salvar()">Salvar Confirmação</button>
+
+      <div id="mensagem"></div>
+    </div>
+  </div>
+
+  <script>
+    
+  </script>
+</body>
+</html>

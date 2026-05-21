@@ -1,0 +1,52 @@
+[
+  {
+    "nome": "Ana Paula",
+    "confirmado": true,
+    "acompanhantes": 5
+  },
+  {
+    "nome": "Carlos Eduardo",
+    "confirmado": true,
+    "acompanhantes": 2
+  },
+  {
+    "nome": "Beatriz Lima",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "Diego Martins",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "Fernanda Costa",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "Gabriel Souza",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "Helena Rocha",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "Igor Alves",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "Juliana Ferreira",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "Leonardo Nunes",
+    "confirmado": false,
+    "acompanhantes": 0
+  }
+]
